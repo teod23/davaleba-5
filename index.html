@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/action_page.php">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname">
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname">
+        <br>
+        <br>
+        <label for="number">Phone Number:</label>
+        <input type="text" name="number">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email">
+        <br>
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday">
+        <br>
+        <br>
+        <P>Choose Age Range:</P>
+        <input type="radio" id="15-25" name="age_range" value="15-25">
+        <label for="15-25">15-25</label>
+        <br>
+        <input type="radio" id="26-35" name="age_range" value="26-35">
+        <label for="26-35">26-35</label>
+        <br>
+        <input type="radio" id="35++" name="age_range" value="35++">
+        <label for="35++">35++</label>
+        <br>
+        <br>
+        <label>Choose Language:</label>
+        <br>
+        <select id="Language" name="Language" form="choose_language">
+            <option value="Georgian">Georgian</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
